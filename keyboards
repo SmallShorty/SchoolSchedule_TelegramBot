@@ -1,0 +1,18 @@
+kb_start = ReplyKeyboardMarkup(
+    keyboard=[
+        [KeyboardButton(text="Расписание")],
+        [KeyboardButton(text="Помощь")],
+    ],
+    resize_keyboard=True
+)
+
+kb_days = ReplyKeyboardMarkup(
+    keyboard=[
+        [KeyboardButton(text="Monday")],
+        [KeyboardButton(text="Tuesday")],
+        [KeyboardButton(text="Wednesday")],
+        [KeyboardButton(text="Thursday")],
+        [KeyboardButton(text="Friday")],
+    ],
+    resize_keyboard=True
+)
