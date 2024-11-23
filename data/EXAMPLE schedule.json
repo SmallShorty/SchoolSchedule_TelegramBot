@@ -1,104 +1,42 @@
 {
-    "schedule": {
-      "Monday": [
-        {
-          "time": "08:00 - 09:30",
-          "subject": "Mathematics",
-          "teacher": "Mr. Smith",
-          "room": "101"
-        },
-        {
-          "time": "09:45 - 11:15",
-          "subject": "Physics",
-          "teacher": "Mrs. Johnson",
-          "room": "102"
-        },
-        {
-          "time": "11:30 - 13:00",
-          "subject": "History",
-          "teacher": "Mr. Brown",
-          "room": "103"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": "08:00 - 09:30",
-          "subject": "Biology",
-          "teacher": "Ms. Davis",
-          "room": "104"
-        },
-        {
-          "time": "09:45 - 11:15",
-          "subject": "Mathematics",
-          "teacher": "Mr. Smith",
-          "room": "101"
-        },
-        {
-          "time": "11:30 - 13:00",
-          "subject": "Physical Education",
-          "teacher": "Mr. Wilson",
-          "room": "Gym"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": "08:00 - 09:30",
-          "subject": "Chemistry",
-          "teacher": "Mrs. Taylor",
-          "room": "105"
-        },
-        {
-          "time": "09:45 - 11:15",
-          "subject": "Literature",
-          "teacher": "Ms. White",
-          "room": "106"
-        },
-        {
-          "time": "11:30 - 13:00",
-          "subject": "Mathematics",
-          "teacher": "Mr. Smith",
-          "room": "101"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": "08:00 - 09:30",
-          "subject": "History",
-          "teacher": "Mr. Brown",
-          "room": "103"
-        },
-        {
-          "time": "09:45 - 11:15",
-          "subject": "Biology",
-          "teacher": "Ms. Davis",
-          "room": "104"
-        },
-        {
-          "time": "11:30 - 13:00",
-          "subject": "Art",
-          "teacher": "Mrs. Green",
-          "room": "107"
-        }
-      ],
-      "Friday": [
-        {
-          "time": "08:00 - 09:30",
-          "subject": "Mathematics",
-          "teacher": "Mr. Smith",
-          "room": "101"
-        },
-        {
-          "time": "09:45 - 11:15",
-          "subject": "Computer Science",
-          "teacher": "Mr. Black",
-          "room": "108"
-        },
-        {
-          "time": "11:30 - 13:00",
-          "subject": "Physical Education",
-          "teacher": "Mr. Wilson",
-          "room": "Gym"
-        }
-      ]
+  "classes": {
+    "classA": {
+      "schedule": {
+        "Monday": [
+          {
+            "time": "08:00 - 09:30",
+            "subject": "Mathematics",
+            "teacher": "Mr. Smith",
+            "room": "101"
+          },
+          {
+            "time": "09:45 - 11:15",
+            "subject": "Physics",
+            "teacher": "Mrs. Johnson",
+            "room": "102"
+          }
+        ],
+        "Tuesday": [
+          {
+            "time": "08:00 - 09:30",
+            "subject": "Biology",
+            "teacher": "Ms. Davis",
+            "room": "104"
+          }
+        ]
+      }
+    },
+    "classB": {
+      "schedule": {
+        "Monday": [
+          {
+            "time": "08:00 - 09:30",
+            "subject": "Chemistry",
+            "teacher": "Mrs. Taylor",
+            "room": "105"
+          }
+        ]
+      }
     }
   }
+}
