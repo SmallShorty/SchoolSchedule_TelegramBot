@@ -1,0 +1,15 @@
+{
+    "schedule": {
+      "Monday": [
+        {
+          "time": {
+            "start": "9:20",
+            "end": "10:00"
+          },
+          "subject": "Окружающей мир",
+          "teacher": "Mr. Smith",
+          "room": "101"
+        }
+      ]
+    }
+  }
